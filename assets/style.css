@@ -364,14 +364,15 @@ footer{
 @media screen and (min-width: 769px) and (max-width: 980px){
 
     header{
-        height: 8vh;
+        height: 11vh;
         width: 100%;
     }
 
     .name{
-        width: 20%;
-        margin-top: 26px;
+        width: 25%;
+        margin-top: 15px;
         margin-left: 20px;
+        height: 64px;
     }
     .links{
         margin-right: 5px;
