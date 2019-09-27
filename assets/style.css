@@ -251,6 +251,10 @@ main{
     height: 19vh;
     }
 
+footer{
+    width: 100%;
+}
+
     .name{
     margin: 0;
     width: 100%;
@@ -354,5 +358,31 @@ main{
         width: 15%;
         margin-right: 10%;
         margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px){
+
+    header{
+        height: 8vh;
+        width: 100%;
+    }
+
+    .name{
+        width: 20%;
+        margin-top: 26px;
+        margin-left: 20px;
+    }
+    .links{
+        margin-right: 5px;
+    }
+    .about-me, .port-about-me,
+    .contact-about-me{
+        position: relative;
+        width: 70%;
+        margin-bottom: 15%;
+        margin-right: 20%;
+        float: left;
+        left: 2%;
     }
 }
