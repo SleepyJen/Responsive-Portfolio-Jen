@@ -240,6 +240,7 @@ main{
 }
 
 @media screen and (max-width: 640px){
+
     body{
         width: 640px;
         background-size: auto;
@@ -296,6 +297,62 @@ main{
         height: 520px;
         width: 520px;
     }
+}
 
+@media screen and (max-width: 768px) and (min-width: 641px){
+    body{
+        width: 768px;
+    }
 
+    header{
+        height: 11vh;
+        }
+
+    .about-me{
+        position: relative;
+        width: 90%;
+        margin-bottom: 15%;
+        float: right;
+        left: 15%;
+    }
+
+    .contact-about-me{
+        position: relative;
+        width: 90%;
+        float: right;
+        left: 21%;
+    }
+
+    .port-about-me{
+        position: relative;
+        width: 90%;
+        float: right;
+        margin-bottom: 15%;
+    }
+
+    main, .port-main, .contact-main{
+        position: unset;
+    }
+    .name{
+        width: 25%;
+        margin-left: 5%;
+        height: 60px;
+        margin-top: 18px;
+        float: left;
+    }
+    .name-card{
+        margin-left: 5px;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 15px;
+        font-family: 'Indie Flower', cursive;
+        letter-spacing: 2px;
+    }
+
+    .links{
+        float: right;
+        width: 15%;
+        margin-right: 10%;
+        margin-top: 10px;
+    }
 }
