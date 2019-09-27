@@ -51,7 +51,7 @@ header{
     background: url('/assets/images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 }
 
 main{
@@ -237,4 +237,49 @@ main{
 
 .button:hover{
     translate: transform(2px, -3px);
+}
+
+@media screen and (max-width: 640px){
+    body{
+        width: 640px;
+        background-size: auto;
+    }
+
+    header{
+    position: static;
+    height: 19vh;
+    }
+
+    .name{
+    margin: 0;
+    width: 100%;
+    float: left;
+    }
+    .name-card{
+    text-align: center;
+    }
+
+    .links{
+    float: left;
+    margin-left:35%;
+    }
+
+    .about-me, .port-about-me{
+        position: relative;
+        width: 90%;
+        margin-bottom: 15%;
+        margin-right: 20%;
+        float: right;
+        left: 15%;
+    }
+
+    main{
+        position: unset;
+    }
+
+    #pic{
+        margin-left: 9%;
+        width: 78%;
+        height: 50vh;
+    }
 }
