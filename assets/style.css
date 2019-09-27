@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+}
+header{
+    height: 11.3vh;
+    background-color: rgb(240, 248, 255);
+}
+.name{
+    background-color: rgb(74, 185, 189);
+    display: table;
+    width: 15%;
+    margin-left: 20%;
+    margin-top: 10px;
+    height: 70px;
+    float: left;
+}
+.name-card{
+    margin-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+.links{
+    display: table;
+    float: right;
+    width: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    height: 9vh;
+
+}
+.link-card{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: gray;
+    transition: all 0.15s ease-in;
+}
+
+.link-card:hover{
+    transform: translate(2px, -3px);
+    text-shadow: -1px -1px black;
+}
+
+.body{
+    position: relative;
+    background: url('/assets/images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    position: relative;
+    min-height: 80vh;
+    margin-bottom: 140px;
+}
+
+.title{
+    margin-left: 10px;
+}
+
+.about-me{
+    position: absolute;
+    min-height: 400px;
+    width: 960px;
+    background-color: white;
+    left: 20%;
+    margin-top: 30px;
+    margin-right: 20%;
+}
+
+.about-tag{
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(84, 210, 214);
+}
+
+.below-about{
+    height: 2px;
+    margin-left: 20px;
+    width: 92%;
+    background-color: rgba(184, 182, 182, 0.774);
+}
+#pic{
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+.para{
+    text-indent: 15px;
+    line-height: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: grey;
+    padding: 10px;
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: rgb(74, 185, 189);
+    text-align: center;
+    display: table;
+}
+.bot{
+    color: rgb(92, 92, 92);
+    padding-top: 40px;
+    font-size: 10px;
+}
+.above-footer{
+    height: 5px;
+    background-color: rgb(143, 142, 142);
+}
+
+.port-main{
+    position: relative;
+    min-height: 80vh;
+    margin-bottom: 140px;
+}
+
+.port-about-me{
+    position: absolute;
+    min-height: 400px;
+    width: 800px;
+    background-color: white;
+    left: 20%;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.boxes{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.border-name{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(74, 185, 189);
+    float:right;
+    margin-top: 70%;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.border-name:hover{
+    transform: translate(2px, -3px);
+    text-shadow: -1px -1px grey;
+}
+
+#guessing{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#RockPaperScissor{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#ShoppingUI{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#solar{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#Drawing{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.contact-main{
+    position: relative;
+    min-height: 80vh;
+    margin-bottom: 140px;
+}
+
+.contact-about-me{
+    position: absolute;
+    min-height: 400px;
+    width: 800px;
+    background-color: white;
+    left: 20%;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.contact{
+    margin-left: 22px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.input{
+    margin-left: 20px;
+    width: 90%;
+    padding: 7px;
+}
+#input-message{
+    border-color: rgb(199, 196, 196);
+}
+
+.button{
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: rgb(74, 185, 189);
+    color: rgb(83, 81, 81);
+}
+
+.button:hover{
+    translate: transform(2px, -3px);
+}
