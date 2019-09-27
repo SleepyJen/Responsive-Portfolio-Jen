@@ -264,7 +264,8 @@ main{
     margin-left:35%;
     }
 
-    .about-me, .port-about-me{
+    .about-me, .port-about-me,
+    .contact-about-me{
         position: relative;
         width: 90%;
         margin-bottom: 15%;
@@ -273,7 +274,7 @@ main{
         left: 15%;
     }
 
-    main{
+    main, .port-main, .contact-main{
         position: unset;
     }
 
@@ -282,4 +283,19 @@ main{
         width: 78%;
         height: 50vh;
     }
+
+    .boxes{
+        height: 90.5%;
+        width: 90.5%;
+        margin-bottom: 100px;
+    }
+
+    #guessing, #RockPaperScissor,
+    #ShoppingUI, #solar, 
+    #Drawing{
+        height: 520px;
+        width: 520px;
+    }
+
+
 }
