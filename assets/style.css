@@ -48,7 +48,7 @@ header{
 
 .body{
     position: relative;
-    background: url('/assets/images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg');
+    background: url('../assets/images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg');
     background-size: cover;
     background-position: center;
     /*background-repeat: no-repeat;*/
